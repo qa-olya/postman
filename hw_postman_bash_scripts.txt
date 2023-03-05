@@ -1,0 +1,26 @@
+task #1 
+curl --location 'http://162.55.220.72:5005/get_method?name=str&age=int'
+
+task #2
+curl --location 'http://162.55.220.72:5005/user_info_3' \
+--form 'name="str"' \
+--form 'age="24"' \
+--form 'salary="38"'
+
+task #3
+curl --location 'http://162.55.220.72:5005/object_info_1?name=str&age=24&weight=55'
+
+task #4
+curl --location 'http://162.55.220.72:5005/object_info_2?name=James&age=35&salary=1000'
+
+task #5
+curl --location 'http://162.55.220.72:5005/object_info_3?name=James&age=35&salary=1000'
+
+Task #6
+curl --location 'http://162.55.220.72:5005/object_info_4?name=James&age=35&salary=5000'
+
+Task #7
+curl --location 'http://162.55.220.72:5005/user_info_2' \
+--form 'name="James"' \
+--form 'age="24"' \
+--form 'salary="38000"'
